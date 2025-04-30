@@ -1,0 +1,77 @@
+.login-container body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  background-image: url("../assets/backgroundmenu.png"); /* or your base64 string */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-container {
+  background: rgb(235, 232, 220);
+  padding: 30px;
+  width: 100%;
+  max-width: 350px; /* Prevents it from getting too wide */
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 40px auto;
+  margin-top: 200px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+
+.login-container input {
+  width: 90%; /* Adjust width so it's not full container width */
+  max-width: 350px; /* Ensures it doesn't stretch too much */
+  padding: 10px;
+  margin: 8px auto; /* Center the input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block; /* Ensures block-level behavior */
+}
+
+.login-container button {
+  width: 95%;
+  padding: 10px;
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #007adf;
+}
+
+.login-options p {
+  margin: 10px 0;
+}
+
+.facebook-login {
+  background-color: #1877f2;
+}
+
+.signup {
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #0095f6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
